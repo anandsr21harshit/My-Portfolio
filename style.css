@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap');
+
+:root{
+    --primary:#6366F1;
+}
+
+body{
+    margin: 0%;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+/*Navigation*/
+
+.navigation{
+    background-color: var(--primary);
+    padding: 0.4rem;
+    color: white;
+}
+
+.navigation ul{
+    list-style: none;
+    text-align: right;
+    
+}
+
+.navigation li{
+    display: inline-block;
+    padding-right: 1rem;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*Section*/
+#home {
+    padding: 2rem;
+    height: fit-content;
+    margin: 0 2rem;
+    min-height: 80vh;
+  }
+
+.img{
+    max-width: 400px;
+    display: block;
+}
