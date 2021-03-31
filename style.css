@@ -58,21 +58,21 @@ body{
 @media (max-width:800px){
     .img{
         max-width: 400px;
-        padding: 40px;
+        padding: 40px 40px 40px 205px;;
         align-items: center;
     } 
 }
 @media (max-width:600px){
     .img{
-        max-width: 350px;
-        padding: 40px;
+        max-width: 400px;
+        padding: 40px 40px 40px 107px;
         align-items: center;
     } 
 }
 @media (max-width:400px){
     .img{
         max-width: 320px;
-        padding: 19px;
+        padding: 19px 19px 19px 44px;
         align-items: center;
         
     } 
