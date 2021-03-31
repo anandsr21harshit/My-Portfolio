@@ -37,12 +37,7 @@ body{
 }
 
 /*Section*/
-@media screen and(max-width:400px){
-    .img{
-        padding:0rem;
-        max-width: 380px;
-    }
-}
+
 .home{
     background-color:rgb(247, 228, 204);
     padding: 1rem 0rem 5.5rem;
@@ -54,9 +49,10 @@ body{
     flex-wrap: wrap;
     
 }
+
 .img{
-    max-width: 450px;
-    padding-left: 10px;
+    max-width: 355px;
+    padding-left: 20px;
     
 }
 
@@ -88,10 +84,13 @@ body{
 .footer{
     clear: left;
     background-color: var(--primary);
-    padding-bottom: 0rem;
+    padding-bottom: 1rem;
     color: white;
     font-size: 25px;
     text-align: center;
+}
+.fheading{
+    padding: 9px;
 }
 .fa{
     padding: 1rem;
