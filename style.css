@@ -2,6 +2,7 @@
 
 :root{
     --primary:#6366F1;
+    box-sizing: border-box;
 }
 
 body{
@@ -40,7 +41,7 @@ body{
 
 .home{
     background-color:rgb(247, 228, 204);
-    padding: 1rem 0rem 5.5rem;
+    padding: 3rem 0rem 3rem;
     text-align: center;
     color: rgb(92, 91, 91);
     font-size: 20px;
@@ -50,15 +51,30 @@ body{
     
 }
 .img{
-    width: 320px;
-    padding: 19px;
+    width: 450px;
+    padding-left: 20px;
     
 } 
-@media screen and(max-width:350px){
+@media (max-width:800px){
+    .img{
+        max-width: 400px;
+        padding: 40px;
+        align-items: center;
+    } 
+}
+@media (max-width:600px){
+    .img{
+        max-width: 350px;
+        padding: 40px;
+        align-items: center;
+    } 
+}
+@media (max-width:400px){
     .img{
         max-width: 320px;
-        padding: 40px;
-        background-color: red;
+        padding: 19px;
+        align-items: center;
+        
     } 
 }
 
@@ -90,7 +106,7 @@ body{
 .footer{
     clear: left;
     background-color: var(--primary);
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
     color: white;
     font-size: 25px;
     text-align: center;
