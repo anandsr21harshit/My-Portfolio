@@ -50,14 +50,22 @@ body{
     
 }
 .img{
-    max-width: 320px;
-    padding: 40px;
+    width: 320px;
+    padding: 19px;
+    
 } 
+@media screen and(max-width:350px){
+    .img{
+        max-width: 320px;
+        padding: 40px;
+        background-color: red;
+    } 
+}
 
 #quote{
     font-size: 25px;
 }
-.container{
+.container{ 
     margin: auto;
     padding: 1rem;
 }
