@@ -37,6 +37,12 @@ body{
 }
 
 /*Section*/
+@media screen and(max-width:400px){
+    .img{
+        padding:0rem;
+        max-width: 380px;
+    }
+}
 .home{
     background-color:rgb(247, 228, 204);
     padding: 1rem 0rem 5.5rem;
@@ -53,17 +59,13 @@ body{
     padding-left: 10px;
     
 }
-@media screen and(max-width:500px){
-    .img{
-        padding:0rem;
-        max-width: 100px;
-    }
-}
+
 #quote{
     font-size: 25px;
 }
 .container{
     margin: auto;
+    padding: 1rem;
 }
 .heading{
     padding-top: 0rem;
