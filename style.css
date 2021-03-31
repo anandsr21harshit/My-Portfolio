@@ -49,13 +49,10 @@ body{
     flex-wrap: wrap;
     
 }
-
 .img{
     max-width: 320px;
-    padding-left: 16px;
-    padding-top: 20px;
-    
-}
+    padding: 40px;
+} 
 
 #quote{
     font-size: 25px;
