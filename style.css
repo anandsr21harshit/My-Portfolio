@@ -39,25 +39,33 @@ body{
 /*Section*/
 .home{
     background-color:rgb(247, 228, 204);
-    padding: 1rem 0rem 7rem;
+    padding: 1rem 0rem 5.5rem;
     text-align: center;
     color: rgb(92, 91, 91);
     font-size: 20px;
     font-weight: 500;
+    display: flex;
+    
 }
 .img{
     max-width: 450px;
-    float: left;
     padding-left: 6rem;
+    
+}
+#quote{
+    font-size: 25px;
+}
+.container{
+    margin: auto;
 }
 .heading{
-    padding-top: 5rem;
+    padding-top: 0rem;
     font-size: 30px;
 }
 .title{
     color: black;
 }
-.button{
+/* .button{
     text-decoration: none;
     color: white;
     border-radius: 0.5rem;
@@ -65,7 +73,7 @@ body{
     border-color: #6366F1;
     border-style: solid;
     background-color: #6366F1;
-}
+} */
 
 /*footer*/
 .footer{
