@@ -74,8 +74,11 @@ body{
         max-width: 290px;
         padding: 19px 19px 19px 44px;
         align-items: center;
-        
-    } 
+    }
+    .navigation li {
+        display: inline-block;
+        padding-right: 5rem;
+    }
 }
 
 #quote{
